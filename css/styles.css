@@ -1,10 +1,14 @@
+
+
 .titulos{
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     background-color: rgba(9, 50, 230, 0.774);
-    color: #f5f5f5;      }
+    color: #f5f5f5;      
+    border-radius: 4px;
+}
 
 .navbar{font-family: 'Manrope', sans-serif;
     font-weight: 700;
@@ -14,6 +18,7 @@
     padding: 20px;
     background-color: rgba(9, 50, 230, 0.774);
     color: rgb(194, 207, 214);
+    border-radius: 4px;
 }
 
 .h2{
@@ -59,6 +64,7 @@
     background-color: rgba(9, 50, 230, 0.774);
     color: antiquewhite;
     padding: 10px;
+    border-radius: 4px;
 }
 
 .formContacto{
@@ -86,25 +92,96 @@ align-items: center;
     font-size: 15px;
     text-align: center;
     padding: 10px; 
+    color: #f5f5f5;
+    border-radius: 4px;
 }
 
 .video{
     margin: 20px;
 }
 
-.cuadrille{
+.gridContainer{
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 30% 30% 30%;
     padding: 50px 30px 20px 60px;
     justify-content: stretch;
-    text-align: center;
-}
+    text-align: center;}
+    
 
-body{
-    background-color: #f5f5f5;
-    font-family: sans-serif;
-    font-size: 20px;
-    padding: 10px;
-}
+    /*TABLETS*/
+@media screen and (max-width:768px) {
+        body{
+            background-color: #f5f5f5;
+        }
+        .gridContainer{
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            padding: 20px 15px 15px 15px;
+            justify-content: stretch;
+            text-align: center;
+        }
+    
+    }
+    
+    /*CELULARES PEQUEÑOS EN VERTICAL*/
+@media screen and (max-width:320px) {
+        body{
+            background-color: #f5f5f5;
+        }
+        .gridContainer{
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 25% 25% 25% 25%;
+            padding: 20px 15px 15px 15px;
+            justify-content: stretch;
+            text-align: center;
+        }
+        .navbar{font-family: 'Manrope', sans-serif;
+            font-weight: 5;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            background-color: rgba(9, 50, 230, 0.774);
+            color: rgb(194, 207, 214);
+            border-radius: 4px;
+            font-size: 10px;}
+            
+        }
+
+        /*CELULARES PEQUEÑOS EN HORIZONTAL*/
+@media screen and (max-width:480px) {
+            body{
+                background-color: #f5f5f5;
+            }
+            .gridContainer{
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: 25% 25% 25% 25%;
+                padding: 20px 15px 15px 15px;
+                justify-content: stretch;
+                text-align: center;
+            }
+            .navbar{font-family: 'Manrope', sans-serif;
+                font-weight: 5;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                background-color: rgba(9, 50, 230, 0.774);
+                color: rgb(194, 207, 214);
+                border-radius: 4px;
+                font-size: 10px;}
+            }
+
+        /*TABLETS HORIZONTAL*/
+        @media screen and (max-width:1240px) {
+            body{
+                background-color: #f5f5f5;
+            }
+
+            }
