@@ -10,15 +10,67 @@
     border-radius: 4px;
 }
 
-.navbar{font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    padding: 20px;
-    background-color: rgba(9, 50, 230, 0.774);
-    color: rgb(194, 207, 214);
+/* Barra de navegación */
+
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 1;
+	width: 93.7%;
+	padding: 0 50px;
+	background: #1ec6ff;
     border-radius: 4px;
+}
+
+.navbar .navbarlogo {
+	display: block;
+	float: left;
+	padding-top: 25px;
+}
+
+.navbar .navbarlogo img {
+	width: 200px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.navbar .menu-list {
+	list-style: none;
+	float: right;
+}
+
+.navbar .menu-list li {
+	display: inline;
+}
+
+.navbar .menu-list li a {
+	display: inline-block;
+	padding: 35px 15px;
+	margin-right: 15px;
+	color: #222;
+	position: relative;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 20px;
+}
+
+.navbar .menu-list li a:hover,
+.navbar .menu-list li a.active {
+	color: #ffffff;
+}
+
+.navbar .menu-list a {
+	margin-right: 0;
+}
+
+.navbar .menu-list li.active a {
+	background: #007;
+	color: #ffffff;
+}
+
+.navbar .menu-list .current a:after {
+	width: 10px;
+	margin-left: -5px;
 }
 
 .h2{
