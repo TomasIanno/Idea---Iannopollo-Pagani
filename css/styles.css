@@ -109,9 +109,11 @@
     text-align: center;
     background-color: rgba(9, 50, 230, 0.774);
     color: antiquewhite;
+    margin-top: 10%;
     padding: 10px;
     border-radius: 4px;
 }
+
 
 .formContacto{
     display: block;
@@ -131,6 +133,7 @@
 .parrafoAparte{display: flex;
 justify-content: center;
 align-items: center;
+margin: 10%;
 }
 
 .foot{
@@ -170,15 +173,7 @@ align-items: center;
             justify-content: stretch;
             text-align: center;
         }
-        .navbar{font-family: 'Manrope', sans-serif;
-            font-weight: 5;
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 50% 50%;
-            background-color: rgba(9, 50, 230, 0.774);
-            color: rgb(194, 207, 214);
-            border-radius: 4px;
-            font-size: 13px;}
+        
             
             /*Cambios a página -contacto-*/
             form{
@@ -213,15 +208,8 @@ align-items: center;
             justify-content: stretch;
             text-align: center;
         }
-        .navbar{font-family: 'Manrope', sans-serif;
-            font-weight: 5;
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 50% 50%;
-            background-color: rgba(9, 50, 230, 0.774);
-            color: rgb(194, 207, 214);
-            border-radius: 4px;
-            font-size: 10px;}
+
+
 
         /*Cambios a página -contacto-*/
         form{
