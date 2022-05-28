@@ -150,6 +150,11 @@ margin: 10%;
     margin: 20px;
 }
 
+.col{
+    text-align: center;
+}
+
+
 .gridContainer{
     box-sizing: border-box;
     display: grid;
