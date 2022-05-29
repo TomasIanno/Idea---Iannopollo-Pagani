@@ -1,4 +1,3 @@
-
 .titulos{
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
@@ -49,6 +48,14 @@
     border-radius: 4px;
 }
 
+
+.formContacto{
+    display: block;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: left;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -80,20 +87,39 @@ margin: 10%;
     border-radius: 4px;
 }
 
-/*Cambios a página -contacto-
 .video{
     margin: 20px;
-}*/
+}
 
 .col{
     text-align: center;
 }
+
+
+.gridContainer{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 30% 30%;
+    padding: 50px 30px 20px 60px;
+    justify-content: stretch;
+    text-align: center;}
+
 
     /*TABLETS*/
 @media screen and (max-width:767px) {
         body{
             background-color: #f5f5f5;
         }
+       /* .gridContainer{
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            padding: 20px 15px 15px 15px;
+            justify-content: stretch;
+            text-align: center;
+        }*/
 
             /*Cambios a página -contacto-*/
             form{
@@ -119,6 +145,17 @@ margin: 10%;
         body{
             background-color: #f5f5f5;
         }
+        .gridContainer{
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 25% 25% 25% 25%;
+            padding: 20px 15px 15px 15px;
+            justify-content: stretch;
+            text-align: center;
+        }
+
+
 
         /*Cambios a página -contacto-*/
         form{
@@ -143,8 +180,26 @@ margin: 10%;
             body{
                 background-color: #f5f5f5;
             }
-
-    /*Cambios a página -contacto-*/
+            .gridContainer{
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: 25% 25% 25% 25%;
+                padding: 20px 15px 15px 15px;
+                justify-content: stretch;
+                text-align: center;
+            }
+            .navbar{font-family: 'Manrope', sans-serif;
+                font-weight: 5;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                background-color: rgba(9, 50, 230, 0.774);
+                color: rgb(194, 207, 214);
+                border-radius: 4px;
+                font-size: 13px;}
+                
+                    /*Cambios a página -contacto-*/
                 form{
                 box-sizing: border-box;
     }
@@ -163,7 +218,7 @@ margin: 10%;
 }
 
         /*TABLETS HORIZONTAL*/
-@media screen and (min-width:768px) and (max-width:1240px){
+@media screen and (max-width:1240px) {
             body{
                 background-color: #f5f5f5;
             }
@@ -286,7 +341,7 @@ margin: 10%;
 	margin-bottom: 10px;
   }
   
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
 	header nav {
 	  display: none;
 	}
@@ -294,11 +349,6 @@ margin: 10%;
 	#hamburger-icon {
 	  display: block;
 	}
-
-  .mobile-menu li {
-    margin-bottom: 10px;
-    background-color: #0535af;
-    }
   }
 
   /* Img header contacto */
