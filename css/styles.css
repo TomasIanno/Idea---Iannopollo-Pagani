@@ -339,6 +339,7 @@ margin: 10%;
   
   .mobile-menu li {
 	margin-bottom: 10px;
+  background-color: #0535af;
   }
   
   @media only screen and (max-width: 768px) {
