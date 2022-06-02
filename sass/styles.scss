@@ -229,7 +229,8 @@ margin: 10%;
         :hover {
             background: #04acf5;
       }
-    }}
+    }
+    }
   
 
   
@@ -237,15 +238,16 @@ margin: 10%;
 	margin: auto 0;
 	display: none;
 	cursor: pointer;
+    div {
+        width: 35px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
   }
   
-  #hamburger-icon div {
-	width: 35px;
-	height: 3px;
-	background-color: white;
-	margin: 6px 0;
-	transition: 0.4s;
-  }
+
   
   .open .bar1 {
 	-webkit-transform: rotate(-45deg) translate(-6px, 6px);
