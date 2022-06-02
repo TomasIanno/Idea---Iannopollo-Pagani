@@ -220,21 +220,18 @@ margin: 10%;
 	justify-content: space-around;
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
-  }
+    a{
+        color: white;
+    }
+    li {
+        padding: 5px;
+        margin-left: 10px;
+        :hover {
+            background: #04acf5;
+      }
+    }}
   
-  ul a {
-	color: white;
-  }
-  
-  ul li {
-	padding: 5px;
-	margin-left: 10px;
 
-  }
-  
-  ul li:hover {
-	background: #04acf5;
-  }
   
   #hamburger-icon {
 	margin: auto 0;
@@ -404,3 +401,4 @@ span{
 	font-size: 14px; 
 	color: #ffffff; 
 }
+

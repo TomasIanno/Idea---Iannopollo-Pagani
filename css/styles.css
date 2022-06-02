@@ -180,16 +180,13 @@ ul {
   justify-content: space-around;
   font-family: 'Manrope', sans-serif;
   font-weight: 700; }
-
-ul a {
-  color: white; }
-
-ul li {
-  padding: 5px;
-  margin-left: 10px; }
-
-ul li:hover {
-  background: #04acf5; }
+  ul a {
+    color: white; }
+  ul li {
+    padding: 5px;
+    margin-left: 10px; }
+    ul li :hover {
+      background: #04acf5; }
 
 #hamburger-icon {
   margin: auto 0;
