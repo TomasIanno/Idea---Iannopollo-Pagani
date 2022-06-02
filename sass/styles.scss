@@ -1,0 +1,406 @@
+.titulos{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(9, 50, 230, 0.774);
+    color: #f5f5f5;      
+    border-radius: 4px;
+}
+
+
+.h3{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.banner0800{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    padding: 15px;
+    box-sizing: border-box 20px;
+    font-weight: 700;
+    background-image: linear-gradient(rgba(7, 39, 184, 0.774), #f5f5f5);
+    }
+
+
+.parrafosPrincipales{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    justify-items: stretch;
+    align-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgba(9, 50, 230, 0.774);
+    color: antiquewhite;
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.parrafoAparte{display: flex;
+justify-content: center;
+align-items: center;
+margin: 10%;
+}
+
+.listadoCotizador{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 15px;
+    }
+
+.foot{
+    background-color: rgba(9, 50, 230, 0.774);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #f5f5f5;
+    border-radius: 4px;
+}
+
+/*Cambios a página -contacto-
+.video{
+    margin: 20px;
+}*/
+
+.col{
+    text-align: center;
+}
+
+    /*TABLETS*/
+@media screen and (max-width:767px) {
+        body{
+            background-color: #f5f5f5;
+        }
+
+            /*Cambios a página -contacto-*/
+            form{
+                box-sizing: border-box;
+        }
+                input, textarea{
+            width: 100%;
+            margin-bottom: 5px;
+            padding: 3px;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+                textarea{
+            min-height: 10px;
+            max-height: 80px;
+            max-width: 400px;
+        }
+                }
+    
+    /*CELULARES PEQUEÑOS EN VERTICAL*/
+@media screen and (max-width:320px) {
+        /*Cambios globales*/
+        body{
+            background-color: #f5f5f5;
+        }
+
+        /*Cambios a página -contacto-*/
+        form{
+        box-sizing: border-box;
+}
+        input, textarea{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+        textarea{
+    min-height: 10px;
+    max-height: 80px;
+    max-width: 100px;
+}
+        }
+
+        /*CELULARES PEQUEÑOS EN HORIZONTAL*/
+@media screen and (max-width:480px) {
+            body{
+                background-color: #f5f5f5;
+            }
+
+    /*Cambios a página -contacto-*/
+                form{
+                box-sizing: border-box;
+    }
+            input, textarea{
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 3px;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+            textarea{
+        min-height: 10px;
+        max-height: 80px;
+        max-width: 100px;
+    }
+}
+
+        /*TABLETS HORIZONTAL*/
+@media screen and (min-width:768px) and (max-width:1240px){
+            body{
+                background-color: #f5f5f5;
+            }
+
+
+            /*Cambios a página -contacto-*/
+                    form{
+                        box-sizing: border-box;
+            }
+                    input, textarea{
+                width: 100%;
+                margin-bottom: 5px;
+                padding: 3px;
+                border-radius: 3px;
+                box-sizing: border-box;
+            }
+                    textarea{
+                min-height: 10px;
+                max-height: 80px;
+                max-width: 700px;
+            }
+        
+            }
+
+            /* Barra de navegación */
+            
+.textbody {
+	background-color: #63cff6;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+  }
+  
+  header a {
+	text-decoration: none;
+  }
+  
+  header {
+	padding: 0 20px;
+	background-color: #0535af;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .navbarlogo {
+	display: flex;
+	align-items: center;
+  }
+  
+  ul {
+	list-style: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 700;
+  }
+  
+  ul a {
+	color: white;
+  }
+  
+  ul li {
+	padding: 5px;
+	margin-left: 10px;
+
+  }
+  
+  ul li:hover {
+	background: #04acf5;
+  }
+  
+  #hamburger-icon {
+	margin: auto 0;
+	display: none;
+	cursor: pointer;
+  }
+  
+  #hamburger-icon div {
+	width: 35px;
+	height: 3px;
+	background-color: white;
+	margin: 6px 0;
+	transition: 0.4s;
+  }
+  
+  .open .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-6px, 6px);
+	transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+	opacity: 0;
+  }
+  
+  .open .bar3 {
+	-webkit-transform: rotate(45deg) translate(-6px, -8px);
+	transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+  }
+  
+  .mobile-menu {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: calc(100vh - 50px);
+	width: 100%;
+	z-index: index;
+  }
+  
+  .mobile-menu li {
+	margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+	header nav {
+	  display: none;
+	}
+  
+	#hamburger-icon {
+	  display: block;
+	}
+
+  .mobile-menu li {
+    margin-bottom: 10px;
+    background-color: #0535af;
+    }
+  }
+
+  /* Img header contacto */
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+  /* formulario de contacto */
+  .contact_form{	
+	width: 460px; 
+	height: auto;
+	margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+	background-color: #0535af; 
+	padding-left: 30px;  
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #04acf5; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  	margin-bottom: 20px; 
+}
+
+
+textarea{
+  	background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #04acf5; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  	margin-bottom: 20px; 
+	padding-top: 15px; 
+}
+
+
+label{
+  	display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #04acf5; 
+	border-color: #04acf5; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  	cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: #04acf5; 
+}
+
+
+.aviso{
+	font-size: 10px;  
+	color: #b7b3b3;  
+}
+
+.titcontacto{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #ffffff;   
+}
+
+.contacto{
+	font-size: 14px; 
+	color: #ffffff; 
+}
