@@ -224,9 +224,8 @@ ul {
   height: calc(100vh - 50px);
   width: 100%;
   z-index: index; }
-
-.mobile-menu li {
-  margin-bottom: 10px; }
+  .mobile-menu li {
+    margin-bottom: 10px; }
 
 @media only screen and (max-width: 767px) {
   header nav {
@@ -303,9 +302,8 @@ button {
   border-radius: 10px;
   width: 420px;
   cursor: pointer; }
-
-button p {
-  color: #fff; }
+  button p {
+    color: #fff; }
 
 span {
   color: #04acf5; }
