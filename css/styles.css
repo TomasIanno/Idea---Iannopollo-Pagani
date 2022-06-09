@@ -245,7 +245,10 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px; }
+  font-size: 30px;
+  color: #f5f5f5;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif; }
 
 /* formulario de contacto */
 .contact_form {

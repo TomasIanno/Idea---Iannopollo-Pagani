@@ -206,6 +206,9 @@ margin: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 	font-size: 30px;
+    color: map-get($map: $paleta, $key: "blanco");
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif
 }
 
   /* formulario de contacto */
