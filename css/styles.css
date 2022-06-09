@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Barra de navegación */
+/* Imports*/
 .textbody {
   background-color: #63cff6;
   color: white;
@@ -121,7 +121,7 @@ ul {
   line-height: 1.5;
   text-align: center;
   background-color: rgba(9, 50, 230, 0.774);
-  color: antiquewhite;
+  color: #f5f5f5;
   margin-top: 10%;
   padding: 10px;
   border-radius: 4px; }

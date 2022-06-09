@@ -1,7 +1,7 @@
-/* Barra de navegación */
+/* Imports*/
 @import "nav";
-
 @import "mixins";
+@import "variables";
 /*.titulos{
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
@@ -45,8 +45,8 @@
     font-weight: normal;
     line-height: 1.5;
     text-align: center;
-    background-color: rgba(9, 50, 230, 0.774);
-    color: antiquewhite;
+    background-color: map-get($map: $paleta, $key: "secundario" );
+    color: #f5f5f5;
     margin-top: 10%;
     padding: 10px;
     border-radius: 4px;
@@ -70,6 +70,9 @@ margin: 10%;
     align-items: flex-start;
     margin: 15px;
     }
+
+
+
 
 .foot{
     background-color: rgba(9, 50, 230, 0.774);
