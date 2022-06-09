@@ -1,6 +1,8 @@
+/* Barra de navegación */
+@import "nav";
 
-
-.titulos{
+@import "mixins";
+/*.titulos{
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -8,7 +10,7 @@
     background-color: rgba(9, 50, 230, 0.774);
     color: #f5f5f5;      
     border-radius: 4px;
-}
+}*/
 
 
 .h3{
@@ -28,7 +30,7 @@
     padding: 15px;
     box-sizing: border-box 20px;
     font-weight: 700;
-    background-image: linear-gradient(rgba(7, 39, 184, 0.774), #f5f5f5);
+    background-image: linear-gradient((rgba(7, 39, 184, 0.774)) , #f5f5f5);
     }
 
 
@@ -51,9 +53,7 @@
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -189,8 +189,7 @@ margin: 10%;
             
         }
 
-/* Barra de navegación */
-@import "nav";
+
 
   /* Img header contacto */
   .contenedor{
