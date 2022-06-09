@@ -133,7 +133,7 @@ ul {
   padding-right: 15px;
   padding-left: 15px; }
 
-.parrafoAparte {
+.parrafoAparte, .parrafosPrincipales > p {
   display: flex;
   justify-content: center;
   align-items: center;

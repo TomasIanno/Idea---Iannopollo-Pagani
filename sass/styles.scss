@@ -58,9 +58,8 @@
     padding-left: 15px;
 }
 
-.parrafoAparte{display: flex;
-justify-content: center;
-align-items: center;
+.parrafoAparte{
+    @include flex;
 margin: 10%;
 }
 
@@ -80,7 +79,7 @@ margin: 10%;
     text-align: center;
     padding: 10px;
     margin: 10px;
-    color: #f5f5f5;
+    color: map-get($map: $paleta, $key:"blanco" );
     border-radius: 4px;
 }
 
