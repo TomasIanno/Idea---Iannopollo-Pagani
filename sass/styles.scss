@@ -82,7 +82,8 @@ margin: 10%;
 
 .col{
     text-align: center;
-}
+        @include flex;
+    }
 
    
 

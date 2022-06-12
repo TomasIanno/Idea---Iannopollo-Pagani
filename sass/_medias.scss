@@ -5,6 +5,7 @@
     }
     .col{
         @include flex;
+        width: 50%;
     }
         /*Cambios a página -contacto-*/
         form{
@@ -29,10 +30,14 @@
     /*Cambios globales*/
     body{
         background-color: #f5f5f5;
+        font-size: small;
+        .card-title{font-size: small;} 
     }
-    .card{
-        width: 50%;
-       
+
+    .col{
+        @include flex;
+        width: 25%;
+    
     }
 
     /*Cambios a página -contacto-*/
@@ -58,6 +63,11 @@ max-width: 100px;
         body{
             background-color: #f5f5f5;
         }
+        .col{
+            @include flex;
+            width: 50%;
+
+        }
 
 /*Cambios a página -contacto-*/
             form{
@@ -82,7 +92,10 @@ max-width: 100px;
         body{
             background-color: #f5f5f5;
         }
-
+        .col{
+            @include flex;
+            width: 50%;
+        }
 
         /*Cambios a página -contacto-*/
                 form{
