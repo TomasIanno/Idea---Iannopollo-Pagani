@@ -23,7 +23,11 @@
         max-height: 80px;
         max-width: 400px;
     }
-            }
+    .parrafosPrincipales{
+        p{
+            font-size: small;
+           }        
+}
 
 /*CELULARES PEQUEÑOS EN VERTICAL*/
 @media screen and (max-width:320px) {
@@ -115,3 +119,4 @@ max-width: 100px;
         }
         
     }
+}
