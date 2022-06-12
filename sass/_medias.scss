@@ -7,6 +7,10 @@
         @include flex;
         width: 50%;
     }
+
+ /*Cambios a página -cotizador-*/
+    @include listas;
+
         /*Cambios a página -contacto-*/
         form{
             box-sizing: border-box;
@@ -41,6 +45,9 @@
     
     }
 
+ /*Cambios a página -cotizador-*/
+    @include listas;
+
     /*Cambios a página -contacto-*/
     form{
     box-sizing: border-box;
@@ -69,8 +76,12 @@ max-width: 100px;
             width: 50%;
 
         }
-        @include parrafosp;     
+        @include parrafosp;  
+            /*Cambios a página -cotizador-*/
+    @include listas;   
     }
+
+
 
 /*Cambios a página -contacto-*/
             form{
@@ -103,6 +114,7 @@ max-width: 100px;
             @include flex;
             width: 50%;
         }
+        
 
         /*Cambios a página -contacto-*/
                 form{

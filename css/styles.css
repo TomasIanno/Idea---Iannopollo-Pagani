@@ -91,6 +91,9 @@ ul {
     justify-content: center;
     align-items: center;
     width: 50%; }
+  /*Cambios a página -cotizador-*/
+  .listadoCotizador {
+    font-size: 50%; }
   /*Cambios a página -contacto-*/
   form {
     box-sizing: border-box; }
@@ -120,6 +123,9 @@ ul {
     justify-content: center;
     align-items: center;
     width: 25%; }
+  /*Cambios a página -cotizador-*/
+  .listadoCotizador {
+    font-size: 50%; }
   /*Cambios a página -contacto-*/
   form {
     box-sizing: border-box; }
@@ -144,7 +150,10 @@ ul {
     align-items: center;
     width: 50%; }
   .parrafosPrincipales p {
-    font-size: small; } }
+    font-size: small; }
+  /*Cambios a página -cotizador-*/
+  .listadoCotizador {
+    font-size: 50%; } }
 
 /*Cambios a página -contacto-*/
 form {
