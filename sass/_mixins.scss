@@ -4,3 +4,9 @@
     align-items: center;
 }
 
+@mixin parrafosp{
+    .parrafosPrincipales{
+        p{
+            font-size: small;
+           }     
+}}
