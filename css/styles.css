@@ -91,6 +91,8 @@ ul {
     justify-content: center;
     align-items: center;
     width: 50%; }
+  .parrafosPrincipales p {
+    font-size: 75%; }
   /*Cambios a página -cotizador-*/
   .listadoCotizador {
     font-size: 50%; }
@@ -106,9 +108,7 @@ ul {
   textarea {
     min-height: 10px;
     max-height: 80px;
-    max-width: 400px; }
-  .parrafosPrincipales p {
-    font-size: small; } }
+    max-width: 400px; } }
 
 /*CELULARES PEQUEÑOS EN VERTICAL*/
 @media screen and (max-width: 320px) {
@@ -123,6 +123,8 @@ ul {
     justify-content: center;
     align-items: center;
     width: 25%; }
+  .parrafosPrincipales p {
+    font-size: 75%; }
   /*Cambios a página -cotizador-*/
   .listadoCotizador {
     font-size: 50%; }
@@ -150,7 +152,7 @@ ul {
     align-items: center;
     width: 50%; }
   .parrafosPrincipales p {
-    font-size: small; }
+    font-size: 75%; }
   /*Cambios a página -cotizador-*/
   .listadoCotizador {
     font-size: 50%; } }
@@ -182,6 +184,8 @@ textarea {
     justify-content: center;
     align-items: center;
     width: 50%; }
+  .parrafosPrincipales p {
+    font-size: 75%; }
   /*Cambios a página -contacto-*/
   form {
     box-sizing: border-box; }

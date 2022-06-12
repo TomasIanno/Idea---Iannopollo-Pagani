@@ -7,6 +7,7 @@
         @include flex;
         width: 50%;
     }
+    @include parrafosp;
 
  /*Cambios a página -cotizador-*/
     @include listas;
@@ -27,7 +28,7 @@
         max-height: 80px;
         max-width: 400px;
     }
-    @include parrafosp;     
+ 
 }
 
 /*CELULARES PEQUEÑOS EN VERTICAL*/
@@ -44,7 +45,7 @@
         width: 25%;
     
     }
-
+    @include parrafosp;
  /*Cambios a página -cotizador-*/
     @include listas;
 
@@ -77,6 +78,7 @@ max-width: 100px;
 
         }
         @include parrafosp;  
+
             /*Cambios a página -cotizador-*/
     @include listas;   
     }
@@ -114,7 +116,7 @@ max-width: 100px;
             @include flex;
             width: 50%;
         }
-        
+        @include parrafosp;
 
         /*Cambios a página -contacto-*/
                 form{
