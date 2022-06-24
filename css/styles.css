@@ -239,7 +239,7 @@ textarea {
   text-align: center;
   background-color: rgba(9, 50, 230, 0.774);
   color: #f5f5f5;
-  margin-top: 10%;
+  margin-top: 10px;
   padding: 10px;
   border-radius: 4px; }
 
@@ -263,15 +263,17 @@ textarea {
   align-items: flex-start;
   margin: 15px; }
 
-.foot {
-  background-color: rgba(9, 50, 230, 0.774);
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-  color: #f5f5f5;
-  border-radius: 4px; }
-
+/*
+.foot{
+    background-color: map-get($map: $paleta, $key: "secundario" );
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: map-get($map: $paleta, $key:"blanco" );
+    border-radius: 4px;
+}
+*/
 /*.video{
     margin: 20px;
 }*/
