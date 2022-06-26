@@ -263,17 +263,6 @@ textarea {
   align-items: flex-start;
   margin: 15px; }
 
-/*
-.foot{
-    background-color: map-get($map: $paleta, $key: "secundario" );
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    color: map-get($map: $paleta, $key:"blanco" );
-    border-radius: 4px;
-}
-*/
 /*.video{
     margin: 20px;
 }*/
@@ -370,3 +359,11 @@ span {
 .contacto {
   font-size: 14px;
   color: #ffffff; }
+
+/* Página SERVICIOS - configuración de Rubros */
+.Serviciosrubros img {
+  width: 20%; }
+
+.Serviciosrubros p {
+  font-size: medium;
+  text-align: end; }
