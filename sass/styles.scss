@@ -171,15 +171,10 @@ span{
 
   /* Página SERVICIOS - configuración de Rubros */
 
-  .Serviciosrubros{
-
-
-img{
-    width: 20%;
-}
-
-p{
-    font-size: medium;
-    text-align: end;
-}
+  .Serviciosrubros1{
+@include configuracionimagentextorubro;
   }
+
+  .Serviciosrubros2{
+    @include configuracionimagentextorubro;
+}

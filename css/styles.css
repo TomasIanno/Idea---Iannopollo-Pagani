@@ -361,9 +361,32 @@ span {
   color: #ffffff; }
 
 /* Página SERVICIOS - configuración de Rubros */
-.Serviciosrubros img {
-  width: 20%; }
+.Serviciosrubros1 {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  justify-content: center;
+  align-items: center; }
+  .Serviciosrubros1 img {
+    margin: 100px;
+    width: 20%; }
+  .Serviciosrubros1 p {
+    margin: 100px;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif; }
 
-.Serviciosrubros p {
-  font-size: medium;
-  text-align: end; }
+.Serviciosrubros2 {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  justify-content: center;
+  align-items: center; }
+  .Serviciosrubros2 img {
+    margin: 100px;
+    width: 20%; }
+  .Serviciosrubros2 p {
+    margin: 100px;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif; }
