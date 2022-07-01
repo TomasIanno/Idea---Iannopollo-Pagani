@@ -93,6 +93,10 @@ ul {
     width: 50%; }
   .centrado .parrafosPrincipales p {
     font-size: 75%; }
+  .centrado ul {
+    font-size: medium; }
+  .centrado img {
+    width: 20%; }
   .parrafosPrincipales p {
     font-size: 75%; }
   /*Cambios a página -cotizador-*/

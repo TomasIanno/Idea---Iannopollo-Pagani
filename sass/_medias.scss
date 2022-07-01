@@ -9,8 +9,15 @@
     }
     .centrado{
         @include parrafosp;
+        ul{
+            font-size: medium
+        }
+        img{
+            width: 20%
+        }
     }
     @include parrafosp;
+
 
  /*Cambios a página -cotizador-*/
     @include listas;
