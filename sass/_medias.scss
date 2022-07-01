@@ -1,194 +1,230 @@
  /*TABLETS*/
  @media screen and (max-width:767px) {
-    body{
-        background-color: #f5f5f5;
-    }
-    .col{
-        @include flex;
-        width: 50%;
-    }
-    .centrado{
-        @include parrafosp;
-        ul{
-            font-size: medium
-        }
-        img{
-            width: 20%
-        }
-    }
-    @include parrafosp;
+     body {
+         background-color: #f5f5f5;
+     }
+
+     .col {
+         @include flex;
+         width: 50%;
+     }
+
+     .centrado {
+         @include parrafosp;
+
+         ul {
+             font-size: medium
+         }
+
+         img {
+             width: 20%
+         }
+     }
+
+     @include parrafosp;
 
 
- /*Cambios a página -cotizador-*/
-    @include listas;
+     /*Cambios a página -cotizador-*/
+     @include listas;
 
-        /*Cambios a página -contacto-*/
-        form{
-            box-sizing: border-box;
-    }
-            input, textarea{
-        width: 100%;
-        margin-bottom: 5px;
-        padding: 3px;
-        border-radius: 3px;
-        box-sizing: border-box;
-    }
-            textarea{
-        min-height: 10px;
-        max-height: 80px;
-        max-width: 400px;
-    }
- 
-}
+     /*Cambios a página -contacto-*/
+     form {
+         box-sizing: border-box;
+     }
 
-/*CELULARES PEQUEÑOS EN VERTICAL*/
-@media screen and (max-width:320px) {
-    /*Cambios globales*/
-    body{
-        background-color: #f5f5f5;
-        font-size: small;
-        .card-title{font-size: small;} 
-    }
-    .contenedor{
-        img{
-            width: 100%;
-            height: auto;
-        }
- 
-    }
-    .centrado{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+     input,
+     textarea {
+         width: 100%;
+         margin-bottom: 5px;
+         padding: 3px;
+         border-radius: 3px;
+         box-sizing: border-box;
+     }
 
-        ul{
-            font-size: x-small
-        
-        }
-        img{
-            width: 15%
-        }
-    }
-    .col{
-        @include flex;
-        width: 25%;
-    
-    }
+     textarea {
+         min-height: 10px;
+         max-height: 80px;
+         max-width: 400px;
+     }
 
-    @include parrafosp;
- /*Cambios a página -cotizador-*/
-    @include listas;
+ }
 
-    /*Cambios a página -contacto-*/
-    form{
-    box-sizing: border-box;
-}
-    input, textarea{
-width: 100%;
-margin-bottom: 5px;
-padding: 3px;
-border-radius: 3px;
-box-sizing: border-box;
-}
-    textarea{
-min-height: 10px;
-max-height: 80px;
-max-width: 100px;
-}
-}
+ /*CELULARES PEQUEÑOS EN VERTICAL*/
+ @media screen and (max-width:320px) {
 
-    /*CELULARES PEQUEÑOS EN HORIZONTAL*/
-@media screen and (max-width:480px) {
-        body{
-            background-color: #f5f5f5;
-        }
-        .col{
-            @include flex;
-            width: 50%;
+     /*Cambios globales*/
+     body {
+         background-color: #f5f5f5;
+         font-size: small;
 
-        }
-        .contenedor{
-            img{
-                width: 100%;
-                height: auto;
-            }
-        }
-        .centrado{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            
-            ul{
-                font-size: small;
-            
-            }
-            img{
-                width: 20%
-            }
-        }
-        @include parrafosp;  
+         .card-title {
+             font-size: small;
+         }
+     }
 
-            /*Cambios a página -cotizador-*/
-    @include listas;   
-    
+     .contenedor {
+         img {
+             width: 100%;
+             height: auto;
+         }
+
+     }
+
+     .centrado {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+
+         ul {
+             font-size: x-small
+         }
+
+         img {
+             width: 15%
+         }
+     }
+
+     .col {
+         @include flex;
+         width: 25%;
+
+     }
 
 
 
-/*Cambios a página -contacto-*/
-            form{
-            box-sizing: border-box;
-}
-        input, textarea{
-    width: 100%;
-    margin-bottom: 5px;
-    padding: 3px;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-        textarea{
-    min-height: 10px;
-    max-height: 80px;
-    max-width: 100px;
-}
+     @include parrafosp;
+     /*Cambios a página -cotizador-*/
+     @include listas;
+
+     /*Cambios a página -contacto-*/
+     form {
+         box-sizing: border-box;
+     }
+
+     input,
+     textarea {
+         width: 100%;
+         margin-bottom: 5px;
+         padding: 3px;
+         border-radius: 3px;
+         box-sizing: border-box;
+     }
+
+     textarea {
+         min-height: 10px;
+         max-height: 80px;
+         max-width: 100px;
+     }
+ }
+
+ /*CELULARES PEQUEÑOS EN HORIZONTAL*/
+ @media screen and (max-width:480px) {
+     body {
+         background-color: #f5f5f5;
+     }
+
+     .col {
+         @include flex;
+         width: 50%;
+
+     }
+
+     .contenedor {
+         img {
+             width: 100%;
+             height: auto;
+         }
+     }
+
+     .centrado {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+
+         ul {
+             font-size: small;
+
+         }
+
+         img {
+             width: 20%
+         }
+     }
+
+     @include parrafosp;
+
+     /*Cambios a página -cotizador-*/
+     @include listas;
 
 
-}
 
-    /*TABLETS HORIZONTAL*/
-@media screen and (min-width:768px) and (max-width:1240px){
-        body{
-            background-color: #f5f5f5;
-        }
-        .centrado{
-            @include parrafosp;
-        }
-        .parrafosPrincipales{
-            p{
-                font-size: medium;
-               }  }
-        .col{
-            @include flex;
-            width: 50%;
-        }
-        @include parrafosp;
 
-        /*Cambios a página -contacto-*/
-                form{
-                    box-sizing: border-box;
-        }
-                input, textarea{
-            width: 100%;
-            margin-bottom: 5px;
-            padding: 3px;
-            border-radius: 3px;
-            box-sizing: border-box;
-        }
-                textarea{
-            min-height: 10px;
-            max-height: 80px;
-            max-width: 700px;
-        }
-        
-    }
+     /*Cambios a página -contacto-*/
+     form {
+         box-sizing: border-box;
+     }
+
+     input,
+     textarea {
+         width: 100%;
+         margin-bottom: 5px;
+         padding: 3px;
+         border-radius: 3px;
+         box-sizing: border-box;
+     }
+
+     textarea {
+         min-height: 10px;
+         max-height: 80px;
+         max-width: 100px;
+     }
+
+
+ }
+
+ /*TABLETS HORIZONTAL*/
+ @media screen and (min-width:768px) and (max-width:1240px) {
+     body {
+         background-color: #f5f5f5;
+     }
+
+     .centrado {
+         @include parrafosp;
+     }
+
+     .parrafosPrincipales {
+         p {
+             font-size: medium;
+         }
+     }
+
+     .col {
+         @include flex;
+         width: 50%;
+     }
+
+     @include parrafosp;
+
+     /*Cambios a página -contacto-*/
+     form {
+         box-sizing: border-box;
+     }
+
+     input,
+     textarea {
+         width: 100%;
+         margin-bottom: 5px;
+         padding: 3px;
+         border-radius: 3px;
+         box-sizing: border-box;
+     }
+
+     textarea {
+         min-height: 10px;
+         max-height: 80px;
+         max-width: 700px;
+     }
+
+ }
