@@ -124,8 +124,18 @@ ul {
     font-size: small; }
     body .card-title {
       font-size: small; }
-  .centrado .parrafosPrincipales p {
-    font-size: 75%; }
+  .contenedor img {
+    width: 100%;
+    height: auto; }
+  .centrado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .centrado ul {
+      font-size: x-small; }
+    .centrado img {
+      width: 15%; }
   .col {
     display: flex;
     justify-content: center;
@@ -148,10 +158,10 @@ ul {
   textarea {
     min-height: 10px;
     max-height: 80px;
-    max-width: 100px; } }
+    max-width: 100px; }
+  /*CELULARES PEQUEÑOS EN HORIZONTAL*/ }
 
-/*CELULARES PEQUEÑOS EN HORIZONTAL*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) and (max-width: 480px) {
   body {
     background-color: #f5f5f5; }
   .col {
@@ -167,24 +177,23 @@ ul {
   .listadoCotizador {
     font-size: 50%; } }
 
-/*Cambios a página -contacto-*/
-form {
-  box-sizing: border-box; }
+@media screen and (max-width: 320px) {
+  /*Cambios a página -contacto-*/
+  form {
+    box-sizing: border-box; }
+  input, textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 3px;
+    box-sizing: border-box; }
+  textarea {
+    min-height: 10px;
+    max-height: 80px;
+    max-width: 100px; }
+  /*TABLETS HORIZONTAL*/ }
 
-input, textarea {
-  width: 100%;
-  margin-bottom: 5px;
-  padding: 3px;
-  border-radius: 3px;
-  box-sizing: border-box; }
-
-textarea {
-  min-height: 10px;
-  max-height: 80px;
-  max-width: 100px; }
-
-/*TABLETS HORIZONTAL*/
-@media screen and (min-width: 768px) and (max-width: 1240px) {
+@media screen and (max-width: 320px) and (min-width: 768px) and (max-width: 1240px) {
   body {
     background-color: #f5f5f5; }
   .centrado .parrafosPrincipales p {
