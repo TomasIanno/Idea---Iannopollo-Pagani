@@ -94,7 +94,7 @@ min-height: 10px;
 max-height: 80px;
 max-width: 100px;
 }
-    
+    }
 
     /*CELULARES PEQUEÑOS EN HORIZONTAL*/
 @media screen and (max-width:480px) {
@@ -106,14 +106,31 @@ max-width: 100px;
             width: 50%;
 
         }
+        .contenedor{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
         .centrado{
-            @include parrafosp;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+            ul{
+                font-size: medium;
+            
+            }
+            img{
+                width: 20%
+            }
         }
         @include parrafosp;  
 
             /*Cambios a página -cotizador-*/
     @include listas;   
-    }
+    
 
 
 
@@ -133,7 +150,7 @@ max-width: 100px;
     max-height: 80px;
     max-width: 100px;
 }
-
+}
 
     /*TABLETS HORIZONTAL*/
 @media screen and (min-width:768px) and (max-width:1240px){
@@ -171,4 +188,3 @@ max-width: 100px;
         }
         
     }
-}
