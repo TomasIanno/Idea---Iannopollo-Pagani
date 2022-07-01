@@ -141,10 +141,6 @@ ul {
     justify-content: center;
     align-items: center;
     width: 25%; }
-  .parrafosPrincipales {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
   .parrafosPrincipales p {
     font-size: 75%; }
   /*Cambios a página -cotizador-*/
