@@ -381,7 +381,8 @@ span {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-direction: row-reverse; }
   .Serviciosrubros2 img {
     margin: 100px;
     width: 20%; }
