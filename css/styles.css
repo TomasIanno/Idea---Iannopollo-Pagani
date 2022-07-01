@@ -125,6 +125,8 @@ ul {
     font-size: small; }
     body .card-title {
       font-size: small; }
+  .video {
+    display: none; }
   .contenedor img {
     width: 100%;
     height: auto; }
