@@ -54,13 +54,14 @@
             width: 100%;
             height: auto;
         }
+ 
     }
     .centrado{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
+
         ul{
             font-size: x-small
         
@@ -74,6 +75,12 @@
         width: 25%;
     
     }
+    .parrafosPrincipales{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     @include parrafosp;
  /*Cambios a página -cotizador-*/
     @include listas;
@@ -94,7 +101,7 @@ min-height: 10px;
 max-height: 80px;
 max-width: 100px;
 }
-    }
+}
 
     /*CELULARES PEQUEÑOS EN HORIZONTAL*/
 @media screen and (max-width:480px) {
@@ -119,7 +126,7 @@ max-width: 100px;
             align-items: center;
             
             ul{
-                font-size: medium;
+                font-size: small;
             
             }
             img{
@@ -150,6 +157,8 @@ max-width: 100px;
     max-height: 80px;
     max-width: 100px;
 }
+
+
 }
 
     /*TABLETS HORIZONTAL*/

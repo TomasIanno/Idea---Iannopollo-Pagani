@@ -141,6 +141,10 @@ ul {
     justify-content: center;
     align-items: center;
     width: 25%; }
+  .parrafosPrincipales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
   .parrafosPrincipales p {
     font-size: 75%; }
   /*Cambios a página -cotizador-*/
@@ -178,7 +182,7 @@ ul {
     justify-content: center;
     align-items: center; }
     .centrado ul {
-      font-size: medium; }
+      font-size: small; }
     .centrado img {
       width: 20%; }
   .parrafosPrincipales p {
