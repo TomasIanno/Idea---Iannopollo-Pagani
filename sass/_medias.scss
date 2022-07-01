@@ -13,7 +13,7 @@
          @include parrafosp;
 
          ul {
-             font-size: medium
+             font-size: small;
          }
 
          img {
@@ -24,6 +24,7 @@
      @include parrafosp;
 
 
+     
      /*Cambios a página -cotizador-*/
      @include listas;
 
@@ -32,14 +33,7 @@
          box-sizing: border-box;
      }
 
-     input,
-     textarea {
-         width: 100%;
-         margin-bottom: 5px;
-         padding: 3px;
-         border-radius: 3px;
-         box-sizing: border-box;
-     }
+     @include contactoinputtextarea;
 
      textarea {
          min-height: 10px;
@@ -102,14 +96,7 @@
          box-sizing: border-box;
      }
 
-     input,
-     textarea {
-         width: 100%;
-         margin-bottom: 5px;
-         padding: 3px;
-         border-radius: 3px;
-         box-sizing: border-box;
-     }
+     @include contactoinputtextarea;
 
      textarea {
          min-height: 10px;
@@ -166,14 +153,7 @@
          box-sizing: border-box;
      }
 
-     input,
-     textarea {
-         width: 100%;
-         margin-bottom: 5px;
-         padding: 3px;
-         border-radius: 3px;
-         box-sizing: border-box;
-     }
+     @include contactoinputtextarea;
 
      textarea {
          min-height: 10px;
@@ -181,6 +161,9 @@
          max-width: 100px;
      }
 
+     .video{
+        display: none;
+     }
 
  }
 
@@ -212,14 +195,7 @@
          box-sizing: border-box;
      }
 
-     input,
-     textarea {
-         width: 100%;
-         margin-bottom: 5px;
-         padding: 3px;
-         border-radius: 3px;
-         box-sizing: border-box;
-     }
+     @include contactoinputtextarea;
 
      textarea {
          min-height: 10px;

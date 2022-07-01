@@ -94,7 +94,7 @@ ul {
   .centrado .parrafosPrincipales p {
     font-size: 75%; }
   .centrado ul {
-    font-size: medium; }
+    font-size: small; }
   .centrado img {
     width: 20%; }
   .parrafosPrincipales p {
@@ -105,7 +105,8 @@ ul {
   /*Cambios a página -contacto-*/
   form {
     box-sizing: border-box; }
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
     margin-bottom: 5px;
     padding: 3px;
@@ -149,7 +150,8 @@ ul {
   /*Cambios a página -contacto-*/
   form {
     box-sizing: border-box; }
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
     margin-bottom: 5px;
     padding: 3px;
@@ -189,7 +191,8 @@ ul {
   /*Cambios a página -contacto-*/
   form {
     box-sizing: border-box; }
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
     margin-bottom: 5px;
     padding: 3px;
@@ -198,7 +201,9 @@ ul {
   textarea {
     min-height: 10px;
     max-height: 80px;
-    max-width: 100px; } }
+    max-width: 100px; }
+  .video {
+    display: none; } }
 
 /*TABLETS HORIZONTAL*/
 @media screen and (min-width: 768px) and (max-width: 1240px) {
@@ -218,7 +223,8 @@ ul {
   /*Cambios a página -contacto-*/
   form {
     box-sizing: border-box; }
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
     margin-bottom: 5px;
     padding: 3px;
@@ -252,7 +258,7 @@ ul {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
   justify-items: stretch;
-  align-content: center;
+  align-items: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 20px;
   font-weight: normal;
@@ -284,9 +290,6 @@ ul {
   align-items: flex-start;
   margin: 15px; }
 
-/*.video{
-    margin: 20px;
-}*/
 .col {
   text-align: center;
   display: flex;

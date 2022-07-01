@@ -23,7 +23,7 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
     justify-items: stretch;
-    align-content: center;
+    align-items: center;
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -55,4 +55,15 @@
         font-family: 'Fjalla One', sans-serif;
     }
 
+}
+
+@mixin contactoinputtextarea {
+        input,
+        textarea {
+            width: 100%;
+            margin-bottom: 5px;
+            padding: 3px;
+            border-radius: 3px;
+            box-sizing: border-box;
+    }
 }
